@@ -277,8 +277,7 @@
         margin-bottom: 80px;
     }
 
-    .section-reasons .section__header
-    {
+    .section-reasons .section__header {
         max-width: 235px;
     }
 
@@ -334,8 +333,7 @@
         grid-template-columns: 1fr 2fr;
     }
     
-    .section-reasons .section__header
-    {
+    .section-reasons .section__header {
         max-width: 350px;
     }
 
