@@ -237,7 +237,7 @@
     }
     
     .header, .footer {
-        max-height: 1024px;
+        min-height: 1024px;
     }
 
     .header__title {
@@ -312,16 +312,17 @@
 
 @media (min-width: 1024px) {
     .header, .footer {
-       max-height: 768px;
+       min-height: 768px;
     }
    
     .header__theme-menu {
         align-self: start;
         justify-self: center;
+        margin-top: -3px;
     }
     
     .section {
-        gap: 10px;
+        gap: 20px 10px;
     }
 
     .header__theme-menu-list {
@@ -333,6 +334,11 @@
         grid-template-columns: 1fr 2fr;
     }
     
+    .section-reasons .section__header
+    {
+        max-width: 350px;
+    }
+
    .section__articles_reasons {
        display: grid;
        grid-template-columns: 1fr 1fr 1fr;
